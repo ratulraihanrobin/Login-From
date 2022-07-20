@@ -2,7 +2,6 @@ body{
    
     font-family: 'Open Sans', sans-serif;
     background-color:#fff ;
-    padding:1000px 0;
 }
 .box{
 position:absolute;
@@ -196,7 +195,25 @@ a:active{
 
     text-align: center;
     padding: 20px;
+    font-size: 17px;
 }
+
+.signup2{
+
+    padding: 6px;
+    font-size: 18px;
+}
+
+.or{
+
+    border-top: 1px solid rgb(138, 135, 135);
+    
+}
+
+
+
+
+
 
 
 
