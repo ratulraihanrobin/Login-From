@@ -204,11 +204,55 @@ a:active{
     font-size: 18px;
 }
 
-.or{
+.vl {
+    position: absolute;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50%);
+    border: 2px solid #ddd;
+    width: 386px;
+    text-align: center;
+   z-index: 2;
+  }
 
-    border-top: 1px solid rgb(138, 135, 135);
+  .vl-innertext {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 8px;
+    color: rgb(102, 102, 102);
+  }
+
+  a .btn{
+
+    min-height: 40px;
+    min-width: 386px;
+    color: #fff;
+    box-sizing: border-box;
+    margin-top: 6px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    overflow: hidden ;
+    text-overflow: ellipsis;
+    display: inline-block;
+    float:none;
+    line-height: normal;
+    position: static;
+    z-index: auto;
     
+  }
+
+span .fb{
+
+    background-color: #166fe5;
+    color: #fff;
 }
+
+
+
 
 
 
