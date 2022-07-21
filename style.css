@@ -59,6 +59,8 @@ input.form{
     line-height: normal;
     position: static;
     z-index: auto;
+    text-align: center;
+    font-size: 20px;
     
          
 }
@@ -207,12 +209,13 @@ a:active{
 .vl {
     position: absolute;
     left: 50%;
-    top: 88%;
+    top: 54%;
     transform: translate(-50%);
     border: 2px solid #ddd;
-    width: 386px;
+    width: 300px;
     text-align: center;
    z-index: 2;
+   margin-top: 200px;
   }
 
   .vl-innertext {
@@ -222,35 +225,39 @@ a:active{
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 50%;
-    padding: 8px 8px;
+    padding: 6px 6px;
     color: rgb(102, 102, 102);
+    height: 20px;
+    width: 20px;
   }
 
-  a .btn{
-
-    min-height: 40px;
-    min-width: 386px;
-    color: #fff;
-    box-sizing: border-box;
-    margin-top: 6px;
-    border-radius: 15px;
-    box-sizing: border-box;
-    overflow: hidden ;
-    text-overflow: ellipsis;
-    display: inline-block;
-    float:none;
-    line-height: normal;
-    position: static;
-    z-index: auto;
+.fa-brands{
+    font-size: 25px;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 80px 13px 20px 13px;
+    z-index: 2;
     
-  }
+    
 
-span .fb{
+ }
+ 
+.fa-brands:hover{
 
-    background-color: #166fe5;
-    color: #fff;
+    
+    outline: 1px solid #1877f2;
+    border-color: #1877f2;
 }
 
+
+.login_with{
+
+    position: absolute;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+}
 
 
 
