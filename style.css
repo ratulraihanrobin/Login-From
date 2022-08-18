@@ -46,20 +46,21 @@ input.form{
     
     min-height: 64px;
     min-width: 386px;
-    color: #767676;
+    padding: 0 40px;
+    color: #000000;
     box-sizing: border-box;
     margin-top: 20px;
+    display: inline-block;
     border-radius: 20px;
     border: 2px solid #c2c2c2;
     box-sizing: border-box;
     overflow: hidden ;
     text-overflow: ellipsis;
-    display: inline-block;
     float:none;
     line-height: normal;
     position: static;
     z-index: auto;
-    font-size: 18px;
+    font-size: 16px;
     
            
 }
@@ -91,9 +92,10 @@ input.form:focus{
 
 ::placeholder{
 
-    color: #767676;
-    padding: 10px;
+    color: #969494;
+    
     font-size:18px ;
+    
     
 
 }
@@ -272,13 +274,6 @@ a:active{
     top: 88%;
     transform: translate(-50%, -50%);
 }
-
-
-
-
-
-
-
 
 
 
